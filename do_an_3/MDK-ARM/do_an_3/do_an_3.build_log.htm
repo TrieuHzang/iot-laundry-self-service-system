@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Trieu Giang, kma, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.43.0.0
+Toolchain Path:  C:\Users\Giang\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.24
+Assembler:       Armasm.exe V6.24
+Linker/Locator:  ArmLink.exe V6.24
+Library Manager: ArmAr.exe V6.24
+Hex Converter:   FromElf.exe V6.24
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.1.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+E:\do_an_3\MDK-ARM\do_an_3.uvprojx
+Project File Date:  06/15/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.24', folder: 'C:\Users\Giang\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'do_an_3'
+assembling startup_stm32f103xb.s...
+compiling fonts.c...
+compiling usart.c...
+compiling i2c.c...
+compiling tim.c...
+compiling stm32f1xx_it.c...
+compiling gpio.c...
+compiling stm32f1xx_hal_msp.c...
+compiling adc.c...
+compiling ds18b20.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+../Core/Src/main.c(302): warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+  302 |     sprintf(buf, "TIME:%lu", timeLeft);
+      |                        ~~~   ^~~~~~~~
+      |                        %u
+../Core/Src/main.c(825): warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+  825 |     sprintf(oledStr,"WASH:%lus",WashTime);
+      |                           ~~~   ^~~~~~~~
+      |                           %u
+../Core/Src/main.c(846): warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+  845 |             "DRY:%lus %.0fC",
+      |                  ~~~
+      |                  %u
+  846 |             DryTime,
+      |             ^~~~~~~
+../Core/Src/main.c(874): warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+  873 |                 "W+D:W%lu %.0fC",
+      |                       ~~~
+      |                       %u
+  874 |                 WashDryTime,
+      |                 ^~~~~~~~~~~
+../Core/Src/main.c(881): warning: format specifies type 'unsigned long' but the argument has type 'uint32_t' (aka 'unsigned int') [-Wformat]
+  880 |                 "W+D:D%lu %.0fC",
+      |                       ~~~
+      |                       %u
+  881 |                 WashDryTime,
+      |                 ^~~~~~~~~~~
+5 warnings generated.
+compiling main.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling ssd1306.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_adc_ex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_adc.c...
+compiling stm32f1xx_hal_exti.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_uart.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_i2c.c...
+linking...
+Program Size: Code=26444 RO-data=2472 RW-data=28 ZI-data=3172  
+FromELF: creating hex file...
+"do_an_3\do_an_3.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.3.0.pack
+                ARM::CMSIS@6.3.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.2.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_do_an_3
+  C:/Users/Giang/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include
+  C:/Users/Giang/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.2.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
