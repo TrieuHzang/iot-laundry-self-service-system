@@ -62,6 +62,7 @@ The system operates on a 4-layer decoupled architecture:
     [ STM32F103C8T6 (Main Controller) ]
       ├── Inputs: Door Magnetic Sensor, DS18B20 Temp Sensor, ADC Potentiometer, Buttons
       └── Outputs: 4-Channel Relay Module (Motors, Heating Lamp), OLED Display, Buzzer
+```
 ---
 
 <p align="center">
