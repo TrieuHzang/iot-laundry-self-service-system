@@ -9,7 +9,7 @@ An end-to-end IoT-enabled self-service laundry prototype that integrates an **Em
 ---
 
 <p align="center">
-  <img src="do_an_3/sanpham.png" alt="IoT Laundry Self-Service System" width="650px">
+  <img src="do_an_3/sanpham.png" alt="IoT Laundry Self-Service System" width="850px">
   <br>
   <em>Figure 1: Completed hardware prototype of the IoT Self-Service Laundry System</em>
 </p>
@@ -66,7 +66,7 @@ The system operates on a 4-layer decoupled architecture:
 ---
 
 <p align="center">
-  <img src="do_an_3/sodo.png" alt="System Block Diagram" width="650px" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  <img src="do_an_3/sodo.png" alt="System Block Diagram" width="850px" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
   <br>
   <em style="color: #666; font-size: 0.9em;">Figure 2: System Block Diagram representing the connection between ESP32, STM32, Sensors, and Actuators</em>
 </p>
@@ -76,7 +76,7 @@ The system operates on a 4-layer decoupled architecture:
 ## Web Client Interface
 
 <p align="center">
-  <img src="do_an_3/web.png" alt="Web Service Selection Interface" width="550px" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+  <img src="do_an_3/web.png" alt="Web Service Selection Interface" width="850px" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
   <br>
   <em style="color: #666; font-size: 0.9em;">Figure 3: Web-based service selection and payment interface (React & payOS)</em>
 </p>
