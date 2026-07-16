@@ -8,6 +8,13 @@ An end-to-end IoT-enabled self-service laundry prototype that integrates an **Em
 
 ---
 
+<p align="center">
+  <img src="do_an_3/sanpham.png" alt="IoT Laundry Self-Service System" width="650px">
+  <br>
+  <em>Figure 1: Overall System Model and Hardware Prototype</em>
+</p>
+---
+
 ## Description
 
 Traditional self-service laundry shops often rely on physical token dispensers, coins, or specialized magnetic cards, which require constant maintenance, cash handling, and on-site staff. 
