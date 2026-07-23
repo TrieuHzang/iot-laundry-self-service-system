@@ -13,7 +13,6 @@ An end-to-end IoT-enabled self-service laundry prototype that integrates an **Em
   <br>
   <em>Figure 1: Completed hardware prototype of the IoT Self-Service Laundry System</em>
 </p>
----
 
 ## Description
 
