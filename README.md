@@ -68,3 +68,20 @@ This project serves as a highly practical, scalable prototype demonstrating how 
   <br>
   <em style="color: #666; font-size: 0.9em;">Figure 4: Blynk IoT Dashboard layout for remote monitoring and state management</em>
 </p>
+
+## Contact & Support
+
+**Trieu Ha Giang** - Embedded Systems Engineering Student
+
+```text
+Thank you for visiting this repository.
+If you have any questions or feedback about the system design, embedded firmware, or hardware integration, feel free to reach out directly.
+```
+
+> **Note:** This project demonstrates a dual-MCU architecture using STM32 and ESP32, with UART communication, device control, Blynk connectivity, and VietQR/payOS payment integration.
+
+**My contact:**
+
+[![Email](https://img.shields.io/badge/Email-trieuhagiang1312%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:trieuhagiang1312@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-TrieuHzang-181717?style=flat&logo=github&logoColor=white)](https://github.com/TrieuHzang)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-haazangg-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haazangg/)
