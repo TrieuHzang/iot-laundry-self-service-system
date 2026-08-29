@@ -1,8 +1,15 @@
 # IoT Self-Service Laundry System (IoT & FinTech Integration)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=TrieuHzang-iot-laundry-self-service-system&label=Repo%20Traffic&color=0e75b6&style=flat" alt="Repo Traffic">
+</p>
 
-[![Platform](https://img.shields.io/badge/Platform-STM32%20%7C%20ESP32%20%7C%20Node.js%20%7C%20React-blue.svg)](https://github.com)
-[![Framework](https://img.shields.io/badge/Framework-Blynk%20%7C%20payOS-green.svg)](https://github)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<p align="center">
+  <img src="https://img.shields.io/badge/language-C%2FC%2B%2B-brightgreen" alt="Language">
+  <img src="https://img.shields.io/badge/mcu-STM32%20%7C%20ESP32-brightgreen" alt="MCU">
+  <img src="https://img.shields.io/badge/communication-UART%20%7C%20Blynk-brightgreen" alt="Communication">
+  <img src="https://img.shields.io/badge/frontend-React-brightgreen" alt="Frontend">
+  <img src="https://img.shields.io/badge/payment-VietQR%20%7C%20payOS-brightgreen" alt="Payment">
+</p>
 
 An end-to-end IoT-enabled self-service laundry prototype that integrates an **Embedded Control System**, **IoT Cloud Communication**, and an **Online Payment Gateway (VietQR via payOS)** to automate unmanned laundry operations.
 
