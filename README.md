@@ -1,6 +1,6 @@
 # IoT Self-Service Laundry System (IoT & FinTech Integration)
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=TrieuHzang-iot-laundry-self-service-system&label=Repo%20Traffic&color=0e75b6&style=flat" alt="Repo Traffic">
+  <img src="https://hits.sh/github.com/TrieuHzang/iot-laundry-self-service-system.svg?label=Repo%20Traffic&color=0e75b6" alt="Repo Traffic">
 </p>
 
 <p align="center">
