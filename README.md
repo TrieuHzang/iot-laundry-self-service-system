@@ -6,7 +6,6 @@
 
 An end-to-end IoT-enabled self-service laundry prototype that integrates an **Embedded Control System**, **IoT Cloud Communication**, and an **Online Payment Gateway (VietQR via payOS)** to automate unmanned laundry operations.
 
----
 
 <p align="center">
   <img src="do_an_3/sanpham.png" alt="IoT Laundry Self-Service System" width="850px">
@@ -25,7 +24,6 @@ Traditional self-service laundry shops often rely on physical token dispensers, 
 
 This project serves as a highly practical, scalable prototype demonstrating how modern Web, Fintech, and Embedded systems can converge to solve real-world automation challenges.
 
----
 
 ## Key Features
 
@@ -39,8 +37,6 @@ This project serves as a highly practical, scalable prototype demonstrating how 
 - **Time-Saving Testing Mode (Speed Factor)**: Utilizes a 12-bit ADC potentiometer to adjust a `SpeedFactor` (ranging from 1x to 20x), allowing developers to compress a real-world multi-minute cycle into seconds for rapid demo/testing.
 - **Local Control Mode**: A fallback physical interface featuring tactile navigation buttons (UP, DOWN, OK, POWER) and an OLED display, allowing manual operation if internet connectivity is lost.
 
----
-
 ## System Architectur
 
 <p align="center">
@@ -49,7 +45,6 @@ This project serves as a highly practical, scalable prototype demonstrating how 
   <em style="color: #666; font-size: 0.9em;">Figure 2: System Block Diagram representing the connection between ESP32, STM32, Sensors, and Actuators</em>
 </p>
 
----
 
 ## Web Client Interface
 
@@ -59,7 +54,6 @@ This project serves as a highly practical, scalable prototype demonstrating how 
   <em style="color: #666; font-size: 0.9em;">Figure 3: Web-based service selection and payment interface (React & payOS)</em>
 </p>
 
----
 
 ## Blynk IoT Dashboard
 <p align="center">
