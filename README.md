@@ -41,28 +41,7 @@ This project serves as a highly practical, scalable prototype demonstrating how 
 
 ---
 
-## System Architecture
-
-The system operates on a 4-layer decoupled architecture:
-
-```text
-  [ User Client: Web App (React + Vite) ] 
-                     │ 
-                     ▼ (Create Transaction / Polling Status)
-     [ Backend Server: Node.js + Express ] ──(Webhook)──► [ payOS API (VietQR) ]
-                     │
-                     ▼ (Blynk API Update V0 Pin)
-              [ Blynk Cloud ]
-                     │
-                     ▼ (Wi-Fi)
-              [ ESP32 GateWay ]
-                     │
-                     ▼ (UART Communication)
-    [ STM32F103C8T6 (Main Controller) ]
-      ├── Inputs: Door Magnetic Sensor, DS18B20 Temp Sensor, ADC Potentiometer, Buttons
-      └── Outputs: 4-Channel Relay Module (Motors, Heating Lamp), OLED Display, Buzzer
-```
----
+## System Architectur
 
 <p align="center">
   <img src="do_an_3/sodo.png" alt="System Block Diagram" width="850px" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
