@@ -43,7 +43,6 @@ uint8_t DS18B20_Start(uint8_t number)
 
 //
 //	Start conversion on all sensors
-//
 void DS18B20_StartAll()
 {
 	OneWire_Reset(&OneWire); // Reset the bus
